@@ -3,13 +3,14 @@ import { useState } from 'react'
 // import viteLogo from '/vite.svg'
 // import './App.css'
 import Signin from './assets/ComponentsAvi/SignIn/Signin'
+import Signup from './assets/ComponentsAvi/SignUp/Signup'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Signin/>
+      <Signup/>
     </>
   )
 }
